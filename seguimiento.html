@@ -93,13 +93,14 @@
             <h1 class='font-headline-xl text-on-surface'>Seguimiento de Viaje <span id='seg-code'
                     class='text-primary'></span></h1>
             <div class='bg-surface-container-lowest p-6 rounded-2xl shadow-sm'>
-                <div
-                    class='w-full h-64 bg-surface-container rounded-xl flex items-center justify-center relative overflow-hidden'>
-                    <img src='https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
-                        class='absolute inset-0 w-full h-full object-cover opacity-50' />
-                    <div class='relative z-10 bg-surface/90 p-4 rounded-xl text-center shadow-lg'><span
-                            class='font-headline-md font-bold text-primary'>Llega en <span id='seg-time'>05</span>
-                            min</span></div>
+                <!-- Mapa SVG animado — poblado por setupSeguimientoPage() en app.js -->
+                <div id='svg-map-container'
+                    class='w-full h-64 bg-surface-container rounded-xl overflow-hidden relative'>
+                </div>
+                <div class='mt-4 flex justify-center'>
+                  <div class='bg-surface-container-lowest px-5 py-2.5 rounded-full shadow-md border border-surface-container-high text-center'>
+                    <span class='font-headline-md font-bold text-primary'>Llega en <span id='seg-time'>08</span> min</span>
+                  </div>
                 </div>
                 <div class='mt-8 flex flex-col gap-6 relative'>
                     <div class='absolute left-[19px] top-2 bottom-2 w-1 bg-surface-container'></div>
@@ -222,6 +223,7 @@
             </div>
         </div>
     </footer>
+    <script src="config.js"></script>
     <script src="app.js"></script>
 </body>
 
