@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>MaquetaGo | Transporte Seguro de Prototipos &amp; Maquetas Arquitectónicas</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary":"#ffffff","secondary-fixed":"#6bf6ff","error-container":"#ffdad6","primary-fixed":"#8ef2fc","secondary-fixed-dim":"#3edae3","surface-dim":"#c4deed","on-primary-container":"#f5feff","on-secondary-fixed":"#002022","on-primary-fixed":"#002022","primary-fixed-dim":"#71d5df","surface-container-lowest":"#ffffff","secondary-container":"#61f4fd","on-tertiary-container":"#fffbff","on-secondary-fixed-variant":"#004f53","tertiary-container":"#a36700","surface-container-high":"#d2ecfb","surface-container-highest":"#cde6f5","on-background":"#041e29","surface-container":"#daf1ff","on-tertiary-fixed-variant":"#653e00","on-primary-fixed-variant":"#004f55","inverse-primary":"#71d5df","on-surface":"#041e29","surface-tint":"#006970","outline":"#6e797a","tertiary-fixed-dim":"#ffb95f","surface":"#f4faff","background":"#f4faff","primary-container":"#00818a","on-secondary-container":"#006e73","surface-bright":"#f4faff","surface-variant":"#cde6f5","outline-variant":"#bdc9ca","on-surface-variant":"#3e494a","on-primary":"#ffffff","secondary":"#00696e","on-tertiary-fixed":"#2a1700","tertiary-fixed":"#ffddb8","on-error":"#ffffff","inverse-surface":"#1b333f","surface-container-low":"#e7f6ff","error":"#ba1a1a","primary":"#00666d","on-tertiary":"#ffffff","inverse-on-surface":"#e1f4ff","tertiary":"#825100","on-error-container":"#93000a"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xl":"1.5rem","space-lg":"1rem","gutter":"1rem","space-sm":"0.5rem","gutter-sm":"0.75rem","space-md":"0.75rem","space-xs":"0.25rem","margin":"1rem","margin-tablet":"1.5rem","space-2xl":"2rem"},fontFamily:{"label-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"data-metric":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-lg":["26px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-xl":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"data-metric":["22px",{"lineHeight":"26px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(4,30,41,0.05)]"><div class="h-20 max-w-7xl mx-auto px-6 flex items-center justify-between gap-4"><div class="flex items-center gap-3 shrink-0"><div class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center text-on-primary-container font-headline-md font-bold shadow-sm">M</div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">MaquetaGo</span><span class="font-label-sm text-label-sm text-outline tracking-wider uppercase">Transporte &amp; Logística FAU</span></div></div><nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-surface-container text-primary font-bold rounded-lg"><a class="px-3 py-2 text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors" data-path="inicio" href="#">Inicio</a><a class="px-3 py-2 text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors" data-path="como-funciona" href="#">Cómo Funciona</a><a class="px-3 py-2 text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors" data-path="cotizar-y-reservar" href="#">Cotizar &amp; Reservar</a><a class="px-3 py-2 text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors" data-path="red-de-campus-y-bahias" href="#">Red de Campus &amp; Bahías</a><a class="px-3 py-2 text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors" data-path="conductores-pro" href="#">Conductores Pro</a><a class="px-3 py-2 text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high rounded-lg transition-colors" data-path="faq" href="#">FAQ</a></nav><div class="flex items-center gap-3 shrink-0"><a class="hidden lg:flex items-center gap-2 px-3 py-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-secondary transition-colors font-label-lg text-label-lg" href="tel:016409000"><span class="material-symbols-outlined text-[18px]">call</span><span>Central FAU: (01) 640-9000</span></a><a class="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg transition-colors shadow-sm" data-path="ingreso-estudiantes" href="#"><span class="material-symbols-outlined text-[18px]">lock</span><span>Ingresar / Estudiante</span></a><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest" src="https://lh3.googleusercontent.com/aida/AEtjO1XbfR4rWS2LN9pwnTo0N9I54qYAi-F_vLiGCa_hmo7UUgNQt_NOjt5oZwe-vD07RzB0H98nTfM2yHkIRpgk5tYzHNFYxt06DlaZqfz8VGah297teYn4XcYHIb5ga9Gc1QuZX3aR2H1PZ3lzsktKgEmwg9sjQGlg7Xq0TqTvZsiUHWwZ4eI3H8oaJjbK7gV2EI3KxPn1lMz9uvgjLTS0J5Ucd9R9XXmhVbn9UJhVTqANtYgIeZMEcT2FyjnBclfGK94-RGHicXmzUF0"/></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<div class="relative w-full overflow-hidden bg-surface-container-low py-10 px-6 sm:px-10 lg:px-16 shadow-sm">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 -bottom-20 w-80 h-80 rounded-full bg-primary-fixed-dim/20 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-6 relative z-10">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider font-bold inline-flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+            Fase Piloto Lima 2025 • Versión Beta FAU
+          </span>
+<span class="px-2 py-0.5 rounded-lg bg-surface-container text-primary font-label-sm text-label-sm">
+            Tesis &amp; Críticas Finales
+          </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface font-extrabold tracking-tight">
+          Cotización y Reserva de Logística Universitaria
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Coordina tu carpool seguro con amortiguación calibrada y anclajes milimétricos hacia las bahías oficiales de tu facultad.
+        </p>
+</div>
+<div class="flex items-center gap-3 bg-surface-container-lowest px-4 py-3 rounded-xl shadow-sm shrink-0">
+<span class="material-symbols-outlined text-primary text-[28px]">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Póliza Prototipo Intacto</span>
+<span class="font-body-sm text-body-sm text-outline">Cobertura de reconstrucción express S/ 1,500</span>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto w-full px-6 sm:px-10 lg:px-16 py-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Columna Izquierda: Flujo de Reserva en 3 Pasos Clave (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-8">
+<!-- PASO 1: Datos del Viaje y Ruta Universitaria -->
+<section class="bg-surface-container-lowest p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col gap-6 relative">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">1</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Ruta y Horario de Crítica</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Puntos con acceso vehicular validado</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-[24px]">alt_route</span>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold flex items-center gap-1.5" for="pickup-input">
+<span class="material-symbols-outlined text-primary text-[18px]">home_pin</span>
+                Punto de Recojo (Taller / Domicilio)
+              </label>
+<div class="relative">
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-4 py-3 outline-none focus:bg-surface-container focus:ring-2 focus:ring-primary transition-all pr-10 shadow-sm" id="pickup-input" placeholder="Ingresa dirección exacta, cruce o distrito..." type="text" value="Jr. Domeyer 214, Barranco (Taller de Fabricación)"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-outline text-[20px]">my_location</span>
+</div>
+<span class="font-body-sm text-body-sm text-outline">Recomendamos coordinar en portón a nivel de calle sin escaleras empinadas.</span>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold flex items-center gap-1.5" for="campus-select">
+<span class="material-symbols-outlined text-secondary text-[18px]">school</span>
+                Campus y Bahía Oficial FAU
+              </label>
+<div class="relative">
+<select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-4 py-3 outline-none focus:bg-surface-container focus:ring-2 focus:ring-secondary transition-all appearance-none shadow-sm cursor-pointer" id="campus-select">
+<option selected="" value="pucp">PUCP - Bahía Oficial Pabellón FAU / Puerta 1 (Av. Universitaria)</option>
+<option value="upc-mont">UPC Monterrico - Bahía Arquitectura &amp; Diseño / Puerta 2</option>
+<option value="urp">URP Surco - Bahía Taller Central FAU / Entrada Benavides</option>
+<option value="uni">UNI - Explanada Facultad de Arquitectura, Urbanismo y Artes</option>
+<option value="ulima">Ulima - Edificio F2 Innovación &amp; Fabricación / Av. Javier Prado</option>
+<option value="upc-villa">UPC Campus Villa - Bahía de Prototipos de Escala Real</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold flex items-center gap-1.5" for="trip-date">
+<span class="material-symbols-outlined text-outline text-[18px]">calendar_today</span>
+                  Fecha de Sustentación
+                </label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-4 py-3 outline-none focus:bg-surface-container focus:ring-2 focus:ring-primary shadow-sm cursor-pointer" id="trip-date" type="date" value="2025-04-14"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold flex items-center gap-1.5" for="trip-time">
+<span class="material-symbols-outlined text-outline text-[18px]">schedule</span>
+                  Hora Máxima de Llegada
+                </label>
+<select class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-4 py-3 outline-none focus:bg-surface-container focus:ring-2 focus:ring-primary shadow-sm cursor-pointer" id="trip-time">
+<option value="07:30">07:30 AM (Crítica Taller I / II)</option>
+<option selected="" value="08:45">08:45 AM (Hora Pico - Espacio Carpool)</option>
+<option value="11:30">11:30 AM (Jurado Intermedio)</option>
+<option value="14:00">02:00 PM (Sustentación Tarde)</option>
+<option value="17:00">05:00 PM (Entrega Final Tesis)</option>
+</select>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3.5 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed text-body-sm font-body-sm shadow-sm">
+<span class="material-symbols-outlined text-tertiary shrink-0 text-[20px] mt-0.5">warning</span>
+<p>
+<strong class="font-bold">Aviso de hora punta (07:30 - 09:15 AM):</strong> Los vehículos asignan 20 minutos de colchón amortiguado para sortear vibraciones por congestión vial en avenidas troncales.
+              </p>
+</div>
+</div>
+</section>
+<!-- PASO 2: Ficha Técnica de la Maqueta -->
+<section class="bg-surface-container-lowest p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col gap-6">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">2</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Ficha Técnica &amp; Nivel de Fragilidad</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Calibración de estiba y almohadillas neumáticas</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-[24px]">architecture</span>
+</div>
+<!-- Escala Selector -->
+<div class="flex flex-col gap-2">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Escala Arquitectónica</label>
+<div class="grid grid-cols-3 sm:grid-cols-6 gap-2" id="scale-selector">
+<button class="scale-btn py-2 px-3 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md text-center transition-colors" data-scale="1:500" type="button">1:500</button>
+<button class="scale-btn py-2 px-3 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md text-center transition-colors" data-scale="1:200" type="button">1:200</button>
+<button class="scale-btn py-2 px-3 rounded-lg bg-primary text-on-primary font-label-md text-label-md text-center transition-colors font-bold shadow-sm" data-scale="1:100" type="button">1:100</button>
+<button class="scale-btn py-2 px-3 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md text-center transition-colors" data-scale="1:75" type="button">1:75</button>
+<button class="scale-btn py-2 px-3 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md text-center transition-colors" data-scale="1:50" type="button">1:50</button>
+<button class="scale-btn py-2 px-3 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container font-label-md text-label-md text-center transition-colors" data-scale="1:20" type="button">1:20</button>
+</div>
+</div>
+<!-- Dimensiones estimadas -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Dimensiones del Prototipo / Base (cm)</label>
+<span class="font-body-sm text-body-sm text-outline">Máx. base estándar: 120 x 90 cm</span>
+</div>
+<div class="grid grid-cols-3 gap-3">
+<div class="flex flex-col gap-1 p-3 bg-surface-container-low rounded-xl">
+<span class="font-label-sm text-label-sm text-outline uppercase">Largo (L)</span>
+<div class="flex items-baseline gap-1">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface font-bold outline-none" id="dim-largo" max="250" min="10" type="number" value="60"/>
+<span class="font-body-sm text-body-sm text-outline">cm</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 p-3 bg-surface-container-low rounded-xl">
+<span class="font-label-sm text-label-sm text-outline uppercase">Ancho (W)</span>
+<div class="flex items-baseline gap-1">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface font-bold outline-none" id="dim-ancho" max="150" min="10" type="number" value="50"/>
+<span class="font-body-sm text-body-sm text-outline">cm</span>
+</div>
+</div>
+<div class="flex flex-col gap-1 p-3 bg-surface-container-low rounded-xl">
+<span class="font-label-sm text-label-sm text-outline uppercase">Alto (H)</span>
+<div class="flex items-baseline gap-1">
+<input class="w-full bg-transparent font-headline-sm text-headline-sm text-on-surface font-bold outline-none" id="dim-alto" max="120" min="5" type="number" value="35"/>
+<span class="font-body-sm text-body-sm text-outline">cm</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Nivel de Fragilidad -->
+<div class="flex flex-col gap-2.5">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Nivel de Sensibilidad Estructural</label>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3" id="fragility-grid">
+<div class="fragility-card cursor-pointer p-4 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col gap-2" data-fragility="standard">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface font-bold">Estándar</span>
+<span class="material-symbols-outlined text-outline text-[18px]">layers</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cartón maqueta prensado, foam-board o MDF compacto sin piezas suspendidas.</p>
+</div>
+<div class="fragility-card cursor-pointer p-4 rounded-xl bg-secondary-container text-on-secondary-container transition-all flex flex-col gap-2 shadow-sm" data-fragility="high">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md font-bold">Alta Fragilidad</span>
+<span class="material-symbols-outlined text-secondary text-[18px]">precision_manufacturing</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Acrílico pegado con cloroformo, filamentos delgados 3D SLA o vidrios.</p>
+</div>
+<div class="fragility-card cursor-pointer p-4 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all flex flex-col gap-2" data-fragility="extreme">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-tertiary font-bold">Extrema Tesis</span>
+<span class="material-symbols-outlined text-tertiary text-[18px]">crisis_alert</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tensores de hilo milimétricos, cerchas al vacío o voladizos sin apoyo.</p>
+</div>
+</div>
+</div>
+<!-- Checkbox obligatorio 0° -->
+<label class="flex items-start gap-3 p-3.5 rounded-xl bg-surface-container cursor-pointer select-none">
+<input checked="" class="mt-1 w-4 h-4 rounded text-primary accent-primary cursor-pointer" id="check-vertical" type="checkbox"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Protocolo de Manipulación Vertical Estricta a 0°</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+                Exijo que el vehículo mantenga la base sin pendientes ni apilamiento secundario. Carga manual en dos operarios si supera los 15 kg.
+              </span>
+</div>
+</label>
+</section>
+<!-- PASO 3: Selección de Modalidad de Pasajero & Carpool -->
+<section class="bg-surface-container-lowest p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col gap-6">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="w-8 h-8 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">3</span>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Modalidad de Pasajero &amp; Carpool</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Comparte gastos de transporte con compañeros de facultad</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary-container text-[24px]">group</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Opción A: Carpool Compartido -->
+<label class="relative p-5 rounded-2xl bg-surface-container flex flex-col justify-between gap-4 cursor-pointer transition-all shadow-sm group">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="px-2 py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm w-fit font-bold">Opción Recomendada</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Carpool FAU Compartido</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Viajas tú como pasajero + hasta 2 alumnos con sus proyectos en la misma ruta.</span>
+</div>
+<input checked="" class="mt-1 w-5 h-5 accent-primary cursor-pointer" name="modalidad-transporte" type="radio" value="carpool"/>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-lg text-headline-lg text-primary font-extrabold">S/ 28.00</span>
+<span class="font-body-sm text-body-sm text-outline">/ estudiante</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">eco</span> Ruta Eficiente
+                </span>
+</div>
+</label>
+<!-- Opción B: Exclusivo Directo -->
+<label class="relative p-5 rounded-2xl bg-surface-container-low hover:bg-surface-container flex flex-col justify-between gap-4 cursor-pointer transition-all shadow-sm group">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm w-fit font-bold">Servicio Directo</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Van Exclusiva Directa</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Unidad completa para ti y tu volumetría, sin desvíos ni esperas de otros alumnos.</span>
+</div>
+<input class="mt-1 w-5 h-5 accent-primary cursor-pointer" name="modalidad-transporte" type="radio" value="exclusivo"/>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-lg text-headline-lg text-on-surface font-extrabold">S/ 45.00</span>
+<span class="font-body-sm text-body-sm text-outline">/ viaje total</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">bolt</span> Puerta a Puerta
+                </span>
+</div>
+</label>
+</div>
+<!-- Adicional Isotérmico -->
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<span class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">inventory_2</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Caja Rígida Amortiguada Isotérmica</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Protección contra viento y humedad matutina en trayecto costero (+ S/ 12.00)</span>
+</div>
+</div>
+<label class="relative inline-flex items-center cursor-pointer shrink-0">
+<input class="sr-only peer" id="check-box" type="checkbox"/>
+<div class="w-11 h-6 bg-outline-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</section>
+</div>
+<!-- Columna Derecha: Resumen Dinámico, Garantía y Módulo Beta Feedback (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-6 sticky top-24">
+<!-- Tarjeta de Resumen en Vivo -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-md flex flex-col gap-5">
+<div class="flex items-center justify-between pb-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">receipt_long</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Resumen de Traslado</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold uppercase tracking-wider">
+              En Tiempo Real
+            </span>
+</div>
+<!-- Desglose de Tarifas -->
+<div class="flex flex-col gap-3 font-body-md text-body-md text-on-surface-variant">
+<div class="flex items-center justify-between">
+<span id="label-modalidad">Modalidad Carpool Compartido</span>
+<span class="font-semibold text-on-surface" id="cost-base">S/ 28.00</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Espacio de Anclaje Volumétrico (60x50x35)</span>
+<span class="font-semibold text-on-surface">S/ 7.00</span>
+</div>
+<div class="flex items-center justify-between">
+<span>Seguro Contra Rajaduras FAU</span>
+<span class="font-semibold text-secondary">S/ 5.00</span>
+</div>
+<div class="flex items-center justify-between" id="row-adicional" style="display: none;">
+<span>Caja Rígida Isotérmica</span>
+<span class="font-semibold text-on-surface">S/ 12.00</span>
+</div>
+<div class="w-full h-px bg-surface-container my-1"></div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Total Estimado</span>
+<span class="font-body-sm text-body-sm text-outline">Incluye IGV y tarifa universitaria</span>
+</div>
+<span class="font-data-metric text-data-metric text-primary font-black" id="total-display">S/ 40.00</span>
+</div>
+</div>
+<!-- Conductor Asignado Ejemplo -->
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[28px]">airport_shuttle</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-on-surface font-bold truncate">Renault Kangoo Maxi • Placa AX-901</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+</div>
+<span class="font-body-sm text-body-sm text-outline">Conductor Pro: Carlos M. (Calificación 4.98 ★)</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Suspensión neumática regulada</span>
+</div>
+</div>
+<!-- Visual Progress Preview Bar -->
+<div class="flex flex-col gap-2 p-3 bg-surface-container-lowest rounded-xl">
+<div class="flex justify-between items-center font-label-sm text-label-sm">
+<span class="text-secondary font-bold">Validación de Medidas</span>
+<span class="text-outline">Bahía PUCP Libre</span>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-300" style="width: 75%"></div>
+</div>
+</div>
+<!-- Botón Principal CTA -->
+<button class="w-full py-4 px-6 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm font-bold shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 active:scale-[0.99]" id="btn-submit" type="button">
+<span class="material-symbols-outlined">format_image_left</span>
+<span>Confirmar Solicitud de Reserva</span>
+</button>
+<!-- Aviso de Pago Seguro -->
+<p class="font-body-sm text-body-sm text-outline text-center flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">lock</span>
+            No se realiza ningún cobro hasta que la unidad esté confirmada en tu puerta.
+          </p>
+</div>
+<!-- MÓDULO ESPECIAL DE VALIDACIÓN Y FEEDBACK BETA (Para Testeo de Usuarios) -->
+<div class="bg-surface-container p-6 rounded-2xl shadow-sm flex flex-col gap-5 relative overflow-hidden">
+<div class="flex items-start gap-3">
+<span class="w-8 h-8 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">rate_review</span>
+</span>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">¿Qué opinas de esta experiencia de reserva?</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ayúdanos a calibrar el servicio antes de la semana de entregas finales.</p>
+</div>
+</div>
+<form class="flex flex-col gap-4" id="beta-feedback-form">
+<!-- Rating 1: Facilidad de uso -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface font-semibold">1. Facilidad del flujo de cotización</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold" id="val-facilidad">5 / 5</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="star-btn-f w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="1" type="button">1</button>
+<button class="star-btn-f w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="2" type="button">2</button>
+<button class="star-btn-f w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="3" type="button">3</button>
+<button class="star-btn-f w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="4" type="button">4</button>
+<button class="star-btn-f w-9 h-9 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold shadow-sm" data-val="5" type="button">5</button>
+</div>
+</div>
+<!-- Rating 2: Claridad de tarifas carpool -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface font-semibold">2. Claridad de tarifas &amp; carpool</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold" id="val-tarifas">5 / 5</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="star-btn-t w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="1" type="button">1</button>
+<button class="star-btn-t w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="2" type="button">2</button>
+<button class="star-btn-t w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="3" type="button">3</button>
+<button class="star-btn-t w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="4" type="button">4</button>
+<button class="star-btn-t w-9 h-9 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold shadow-sm" data-val="5" type="button">5</button>
+</div>
+</div>
+<!-- Rating 3: Confianza en el cuidado -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface font-semibold">3. Confianza en el cuidado de la maqueta</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold" id="val-confianza">4 / 5</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="star-btn-c w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="1" type="button">1</button>
+<button class="star-btn-c w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="2" type="button">2</button>
+<button class="star-btn-c w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="3" type="button">3</button>
+<button class="star-btn-c w-9 h-9 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold shadow-sm" data-val="4" type="button">4</button>
+<button class="star-btn-c w-9 h-9 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" data-val="5" type="button">5</button>
+</div>
+</div>
+<!-- Campo de Texto Abierto -->
+<div class="flex flex-col gap-1.5 pt-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="feedback-text">
+                ¿Qué otra función o necesidad te gustaría que incluyamos antes del lanzamiento oficial en tu facultad?
+              </label>
+<textarea class="w-full bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-xl p-3 outline-none focus:ring-2 focus:ring-primary shadow-sm resize-none" id="feedback-text" placeholder="Ej: Poder subir fotos de planos antes de que llegue la van, o pagar en grupo con Yape..." rows="3"></textarea>
+</div>
+<!-- Botón de Feedback -->
+<button class="w-full py-3 px-4 rounded-xl bg-secondary hover:bg-on-secondary-container text-on-secondary font-label-lg text-label-lg font-bold shadow-sm transition-all flex items-center justify-center gap-2" id="btn-feedback" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Enviar mi feedback como tester universitario</span>
+</button>
+<!-- Feedback Success Banner (Hidden by default) -->
+<div class="hidden p-3 rounded-xl bg-secondary-container text-on-secondary-container font-label-md text-label-md text-center items-center justify-center gap-2" id="feedback-success">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+              ¡Gracias! Tu opinión fue registrada en el roadmap de MaquetaGo.
+            </div>
+</form>
+</div>
+<!-- Campus Partners Badges -->
+<div class="p-4 rounded-xl bg-surface-container-lowest flex items-center justify-around gap-4 text-outline font-label-sm text-label-sm">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Bahía PUCP</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Bahía UPC</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Bahía URP</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Bahía UNI</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Inline Script for Real-time Calculation & Feedback Micro-interactions -->
+<script>
+    (function initMaquetaGo() {
+      // Elements
+      const radios = document.querySelectorAll('input[name="modalidad-transporte"]');
+      const checkBox = document.getElementById('check-box');
+      const labelModalidad = document.getElementById('label-modalidad');
+      const costBase = document.getElementById('cost-base');
+      const rowAdicional = document.getElementById('row-adicional');
+      const totalDisplay = document.getElementById('total-display');
+      const btnSubmit = document.getElementById('btn-submit');
+      const feedbackForm = document.getElementById('beta-feedback-form');
+      const feedbackSuccess = document.getElementById('feedback-success');
+
+      function calculateTotal() {
+        let isCarpool = true;
+        radios.forEach(r => {
+          if (r.checked && r.value === 'exclusivo') {
+            isCarpool = false;
+          }
+        });
+
+        const hasIsotermic = checkBox ? checkBox.checked : false;
+        
+        let base = isCarpool ? 28.00 : 45.00;
+        let anclaje = 7.00;
+        let seguro = 5.00;
+        let adicional = hasIsotermic ? 12.00 : 0.00;
+
+        let total = base + anclaje + seguro + adicional;
+
+        if (labelModalidad) {
+          labelModalidad.textContent = isCarpool ? 'Modalidad Carpool Compartido' : 'Modalidad Van Exclusiva Directa';
+        }
+        if (costBase) {
+          costBase.textContent = 'S/ ' + base.toFixed(2);
+        }
+        if (rowAdicional) {
+          rowAdicional.style.display = hasIsotermic ? 'flex' : 'none';
+        }
+        if (totalDisplay) {
+          totalDisplay.textContent = 'S/ ' + total.toFixed(2);
+        }
+      }
+
+      radios.forEach(r => r.addEventListener('change', calculateTotal));
+      if (checkBox) checkBox.addEventListener('change', calculateTotal);
+
+      // Scale selector micro-interaction
+      const scaleBtns = document.querySelectorAll('.scale-btn');
+      scaleBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          scaleBtns.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary', 'font-bold', 'shadow-sm');
+            b.classList.add('bg-surface-container-low', 'text-on-surface');
+          });
+          btn.classList.add('bg-primary', 'text-on-primary', 'font-bold', 'shadow-sm');
+          btn.classList.remove('bg-surface-container-low', 'text-on-surface');
+        });
+      });
+
+      // Fragility toggles
+      const fragCards = document.querySelectorAll('.fragility-card');
+      fragCards.forEach(card => {
+        card.addEventListener('click', () => {
+          fragCards.forEach(c => {
+            c.classList.remove('bg-secondary-container', 'text-on-secondary-container', 'shadow-sm');
+            c.classList.add('bg-surface-container-low');
+          });
+          card.classList.add('bg-secondary-container', 'text-on-secondary-container', 'shadow-sm');
+          card.classList.remove('bg-surface-container-low');
+        });
+      });
+
+      // Rating buttons interactions
+      function handleRatingGroup(btnClass, labelId) {
+        const btns = document.querySelectorAll(btnClass);
+        const label = document.getElementById(labelId);
+        btns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            btns.forEach(b => {
+              b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+              b.classList.add('bg-surface-container-lowest', 'text-on-surface');
+            });
+            btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+            btn.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+            if (label) {
+              label.textContent = btn.getAttribute('data-val') + ' / 5';
+            }
+          });
+        });
+      }
+
+      handleRatingGroup('.star-btn-f', 'val-facilidad');
+      handleRatingGroup('.star-btn-t', 'val-tarifas');
+      handleRatingGroup('.star-btn-c', 'val-confianza');
+
+      // Submit buttons actions
+      if (btnSubmit) {
+        btnSubmit.addEventListener('click', () => {
+          const originalHTML = btnSubmit.innerHTML;
+          btnSubmit.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">sync</span><span>Asignando unidad de ruta...</span>';
+          btnSubmit.disabled = true;
+          setTimeout(() => {
+            btnSubmit.innerHTML = '<span class="material-symbols-outlined text-[20px]">done_all</span><span>¡Reserva Solicitada con Éxito!</span>';
+            btnSubmit.classList.replace('bg-primary', 'bg-secondary');
+          }, 1200);
+        });
+      }
+
+      if (feedbackForm) {
+        feedbackForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const submitBtn = document.getElementById('btn-feedback');
+          if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = '0.6';
+          }
+          if (feedbackSuccess) {
+            feedbackSuccess.classList.remove('hidden');
+            feedbackSuccess.classList.add('flex');
+          }
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-16 pt-16 pb-12 shadow-[0_-1px_6px_rgba(4,30,41,0.03)]"><div class="max-w-7xl mx-auto px-6 flex flex-col gap-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8"><div class="lg:col-span-2 flex flex-col gap-4"><div class="flex items-center gap-3"><div class="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-on-primary font-headline-sm font-bold">M</div><span class="font-headline-md text-headline-md text-primary font-bold">MaquetaGo</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Plataforma especializada en traslado seguro, amortiguado y con control dimensional para maquetas de arquitectura, volumetrías de diseño y prototipos universitarios.</p><div class="flex items-center gap-3 pt-2"><span class="material-symbols-outlined text-tertiary">shield_lock</span><span class="font-label-md text-label-md text-on-surface font-bold">Póliza de Garantía de Entrega Intacta Activa</span></div></div><div class="flex flex-col gap-3"><h4 class="font-label-lg text-label-lg text-on-surface font-bold uppercase tracking-wider">Red de Campus Activa</h4><ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">PUCP - Bahía FAU / Tinkuy</a></li><li><a class="hover:text-primary transition-colors" href="#">UPC - Monterrico &amp; Villa Campus</a></li><li><a class="hover:text-primary transition-colors" href="#">URP - Pabellón Central FAU</a></li><li><a class="hover:text-primary transition-colors" href="#">UNI - Facultad de Arquitectura</a></li><li><a class="hover:text-primary transition-colors" href="#">Ulima - Edificio F2 Innovación</a></li></ul></div><div class="flex flex-col gap-3"><h4 class="font-label-lg text-label-lg text-on-surface font-bold uppercase tracking-wider">Soporte Técnico</h4><ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Guía de Embalaje &amp; Cintas</a></li><li><a class="hover:text-primary transition-colors" href="#">Reporte de Incidencia en Ruta</a></li><li><a class="hover:text-primary transition-colors" href="#">Inspección Fotográfica 360°</a></li><li><a class="hover:text-primary transition-colors" href="#">Términos de Póliza &amp; Seguro</a></li><li><a class="hover:text-primary transition-colors" href="#">Canal Ético &amp; Reclamos</a></li></ul></div><div class="flex flex-col gap-3"><h4 class="font-label-lg text-label-lg text-on-surface font-bold uppercase tracking-wider">Atención de Urgencia</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Monitoreo de entregas finales y sustentaciones de tesis 24/7.</p><div class="flex flex-col gap-1 pt-1"><span class="font-label-sm text-label-sm text-outline">Línea Directa FAU</span><a class="font-headline-sm text-headline-sm text-primary font-bold" href="tel:016409000">(01) 640-9000</a></div><span class="font-body-sm text-body-sm text-on-surface-variant">contacto@maquetago.pe</span></div></div><div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 MaquetaGo Technologies Perú S.A.C. Todos los derechos reservados.</p><div class="flex items-center gap-6"><a class="hover:text-on-surface transition-colors" href="#">Políticas de Privacidad</a><a class="hover:text-on-surface transition-colors" href="#">Reglamento de Carga Delicada</a><a class="hover:text-on-surface transition-colors" href="#">Libro de Reclamaciones</a></div></div></div></footer></body></html>
